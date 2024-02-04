@@ -1,0 +1,159 @@
+.header_container {
+    position: relative;
+    width: 100%;
+    user-select: none; 
+    background-color: #1f1f3b;
+    height: 100vh;
+    /* width: 100%; */
+    color: white;
+}
+
+@font-face {
+    font-family: Mtavruli;
+    src: url(../fonts/bpg_square_mtavruli_2009.ttf);
+}
+
+@font-face {
+    font-family: Montseratt_bold;
+    src: url(../fonts/montserrat.bold.ttf);
+}
+
+@font-face {
+    font-family: Monsteratt_regular;
+    src: url(../fonts/montserrat.regular.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu_Light;
+    src: url(../fonts/Ubuntu-Light.ttf);
+}
+
+@font-face {
+    font-family: quadrosquare_caps_2013;
+    src: url(../fonts/bpg_quadrosquare_caps_2013.ttf);
+}
+
+@font-face {
+    font-family: Nino_Mtavruli_Regular;
+    src: url(../fonts/bpg_nino_mtavruli_normal.ttf);
+}
+
+.nav_container {
+    padding: 70px;
+    padding-left: 17%;
+    width: 85%;
+    display: flex;
+    /* gap: 120px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lists ul, .languages ul{
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+
+.lists ul {
+    width: 100%;
+    cursor: pointer;
+    font-family: Mtavruli;
+    font-size: 15px;
+    transform: translateX(70px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.lists ul > li {
+    padding-left: 14px;
+}
+
+.languages ul {
+    cursor: pointer;
+    color: #99a9b5;
+    font-size: 20px;
+    font-family: Monsteratt_regular;
+    transform: translateX(200px);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px; 
+}
+
+.active {
+    color: #cfc5ec;
+}
+
+.active2 {
+    color: #ffffff;
+    font-family: Montseratt_bold;
+}
+
+.aboutus {
+    /* background-color: red; */
+    width: 100%;
+    padding-left: 17%;
+    padding-right: 17%;
+    margin-top: 100px;
+    /* background-color: red; */
+}
+
+
+.font1 {
+    color: #c3b9e0;
+    font-family: Ubuntu_Light;
+    letter-spacing: 3px;
+    line-height: 70px;
+    font-size: 45px;
+}
+
+.font2 {
+    color: #ffffff;
+    font-size: 65px;
+    letter-spacing: 3px;
+    font-family: quadrosquare_caps_2013;
+}
+
+.line1 {
+    width: 77px;
+    height: 6px;
+    background-color: #4c4c62;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.font3 {
+    line-height: 22px;
+    font-size: 17px;
+    font-family: Nino_Mtavruli_Regular;
+}
+
+.font4 {
+    width: 265px;
+    height: 57px;
+    background-color: #9369fd;
+    color: #f8f5ff;
+    border: none;
+    border-radius: 25.5px;
+    font-size: 19px;
+    margin-top: 35px;
+    font-family: Mtavruli;
+    cursor: pointer;
+}
+
+.right_container {
+    position: absolute;
+    right: 0;
+    top: 125px;
+}
+
+.right_container img {
+    width: 35rem;
+    height: 47rem;
+}

@@ -1,0 +1,110 @@
+.consultation_container {
+    width: 100%;
+    height: 100vh;
+    background-color: #1f1f3b;
+    overflow-x: hidden;
+}
+
+.aboutus_container {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* background-color: green; */
+}
+
+@font-face {
+    font-family: Monsterat_Light;
+    src: url(../fonts/Montserrat\ Light.otf);
+}
+
+.aboutus_container h1 {
+    font-family: Mtavruli;
+    font-weight: lighter;
+    font-size: 45px;
+    color: #dfe5e8;
+    letter-spacing: 4px;
+}
+
+.left_right_container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    /* background-color: red; */
+    height: 430px;
+}
+
+.left_right_container .img1 {
+    position: absolute;
+    left: 0;
+    height: 45rem;
+    transform: translateY(-100px);
+}
+
+.line2 {
+    width: 136px;
+    margin-top: 130px;
+    transform: translateX(-120px);
+    height: 1px;
+    background-color: #7c5ad6;
+}
+
+.left_container {
+    width: 500px;
+    margin-top: 100px;
+    transform: translateX(-100px);
+    height: 430px;
+    /* background-color: green; */
+}
+
+.left_container h1 {
+    font-family: Monsterat_Light;
+    font-weight: lighter;
+    font-size: 44px;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+
+.left_container p {
+    font-family: Nino_Mtavruli_Regular;
+    line-height: 25px;
+    font-size: 16px;
+    color: #b9b9c0;
+}
+
+.right_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 791px;
+    height: 431px;
+    background-color: #19192d;
+    -webkit-box-shadow: 1px 0px 8px 7px rgba(8, 8, 15, 0.47);
+    -moz-box-shadow: 1px 0px 8px 7px rgba(8, 8, 15, 0.47);
+    box-shadow: 1px 0px 8px 7px rgba(8, 8, 15, 0.47);
+    z-index: 1;
+
+}
+
+.border_container1 {
+    position: absolute;
+    width: 830px;
+    height: 208px;
+    border: 3px solid #272b46;
+    margin-top: 12rem;
+    transform: translateX(-30px);
+}
+
+.border_container2 {
+    position: absolute;
+    margin-top: 16rem;
+    width: 830px;
+    height: 208px;
+    border: 3px solid #393d50;
+    transform: translateX(5px);
+}
