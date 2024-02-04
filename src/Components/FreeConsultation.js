@@ -18,9 +18,7 @@ function FreeConsultation() {
                         <img className={Style.shape_2} src={Shape7} alt='' />
                     </div>
                     <h1>უფასო კონსულტაცია</h1>
-                    <br /><br /><br />
-                    <img src={line3} alt='' />
-                    <br /><br />
+                    <img className={Style.line_3} src={line3} alt='' />
                     <p>ჩვენთან ყველაფერი მარტივია, დაგვიკავშირდით და გაიარეთ კონსულტაცია.</p>
                     <p>ჩვენ მოვისმენთ და განვიხილავთ თქვენს იდეებს.</p>
 

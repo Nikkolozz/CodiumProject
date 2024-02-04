@@ -49,6 +49,10 @@
     color: #666f7f;
 }
 
+.container1 .line_3 {
+    margin: 39px 0;
+}
+
 .imgs {
     position: absolute;
     left: 30%;

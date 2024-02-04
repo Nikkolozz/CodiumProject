@@ -64,9 +64,7 @@ function OurTeam() {
                 </div>
                 <div className={Style.title}>
                     <h1>ჩვენი გუნდი</h1>
-                    <br />
-                    <img src={newShape1} alt='' />
-                    <br />
+                    <img className={Style.newShape_1} src={newShape1} alt='' />
                     <p>Lorem Ipsum is simply dummy text of the</p>
                     <p>printing and typesetting industry</p>
                 </div>

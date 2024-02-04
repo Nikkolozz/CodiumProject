@@ -48,6 +48,10 @@
     color: #b8bac1;
 }
 
+.title .newShape_1 {
+    margin: 35px 0;
+}
+
 .shape_container {
     position: absolute;
     left: 30%;
