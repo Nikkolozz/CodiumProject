@@ -1,6 +1,7 @@
 footer {
     height: 430px;
     background-color: #19192d;
+    user-select: none;
 }
 
 @font-face {
@@ -65,8 +66,12 @@ footer,
     line-height: 35px;
     color: #909fac;
     letter-spacing: -1px;
-    color: #909fac;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.containers1 p:hover {
+    color: #909facb4;
 }
 
 .icons1 {
@@ -104,6 +109,7 @@ footer,
 }
 
 .copyright_socials_container {
+    user-select: none;
     background-color: #19192d;
     display: flex;
     justify-content: center;
@@ -141,11 +147,35 @@ footer,
     font-family: Monsteratt_Medium;
     font-size: 14px;
     color: #99a9b5;
+    cursor: pointer;
+}
+
+.about_1 h1:hover {
+    color: #99a9b5cb;
+}
+
+.about_1 h1:active {
+    color: #99a9b5;
+    transition: 0.2s;
 }
 
 .about_2 {
     display: flex;
     gap: 20px;
-    color: #dcd1f9de;
 }
 
+.about_2 h2 {
+    transition: 0.2s;
+    color: #dcd1f9de;
+    cursor: pointer;
+}
+
+.about_2 h2:hover {
+    transform: translateY(-3px);
+    color: #dcd1f99c;
+}
+
+.about_2 h2:active {
+    color: #dcd1f9de;
+    transition: 0.2s;
+}

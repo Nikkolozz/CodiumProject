@@ -53,6 +53,15 @@
     list-style: none;
 }
 
+.hovers:hover {
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.hovers:active {
+    color: white;
+    transition: 0.2s;
+}
+
 .logo {
     cursor: pointer;
 }
@@ -145,6 +154,15 @@
     margin-top: 35px;
     font-family: Mtavruli;
     cursor: pointer;
+}
+
+.font4:hover {
+    background-color: #9369fdcc;
+}
+
+.font4:active {
+    background-color: #9369fd;
+    transition: 0.2s;
 }
 
 .right_container {

@@ -13,17 +13,17 @@ function Header() {
                 <div className={Style.lists}>
                     <ul>
                         <li className={Style.active}>მთავარი გვერდი</li>
-                        <li>საიტის დამზადება</li>
-                        <li>სერვისები</li>
-                        <li>ჩვენ შესახებ</li>
-                        <li>კონტაქტი</li>
+                        <li className={Style.hovers}>საიტის დამზადება</li>
+                        <li className={Style.hovers}>სერვისები</li>
+                        <li className={Style.hovers}>ჩვენ შესახებ</li>
+                        <li className={Style.hovers}>კონტაქტი</li>
                     </ul>
                 </div>
                 <div className={Style.languages}>
                     <ul>
                         <li className={Style.active2}>GEO</li>
-                        <li>EN</li>
-                        <li>RU</li>
+                        <li className={Style.hovers}>EN</li>
+                        <li className={Style.hovers}>RU</li>
                     </ul>
                 </div>
             </div>

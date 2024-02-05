@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import arrowUp from '../images/arrowUp.png';
+import { hover } from '@testing-library/user-event/dist/hover';
 
 function BackToTopButton() {
     const [backToTopButton, setBacktoTopButton] = useState(false);
@@ -48,6 +49,7 @@ function BackToTopButton() {
                         background: "#111121",
                         border: "none",
                         cursor: "pointer",
+                        zIndex: 1
                     }}
                     onClick={scrollUp}
                 >

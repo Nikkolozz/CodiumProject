@@ -13,19 +13,19 @@ function OurWorks() {
                     <h1>GAMEKEY</h1>
                     <h1>WEB UI</h1>
                     <br /> <br />
-                    <button>ვრცლად</button>
+                    <button className={Style.hovers_1}>ვრცლად</button>
                 </div>
                 <div className={Style.card1}>
                     <h1>CODIUM</h1>
                     <h1>WEB</h1>
                     <br /> <br />
-                    <button>ვრცლად</button>
+                    <button className={Style.hovers_1}>ვრცლად</button>
                 </div>
                 <div className={Style.card1}>
                     <h1>NEW</h1>
                     <h1>THEME</h1>
                     <br /> <br />
-                    <button>ვრცლად</button>
+                    <button className={Style.hovers_1}>ვრცლად</button>
                 </div>
                 <div className={Style.next}>
                     <img src={rightArrow1} alt='' />
