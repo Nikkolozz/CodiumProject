@@ -10,15 +10,13 @@
 }
 
 ::-webkit-scrollbar-track {
-    background-color: grey;
+    background-color: #19192d;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: #8462dd;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #6a4bb9;
 }

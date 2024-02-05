@@ -6,6 +6,7 @@ import FreeConsultation from './Components/FreeConsultation';
 import OurWorks from './Components/OurWorks';
 import OurTeam from './Components/OurTeam';
 import Footer from './Components/Footer';
+import BackToTopButton from './Components/BackToTopButton';
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
       <OurWorks />
       <OurTeam />
       <Footer />
+      <BackToTopButton /> 
+
     </>
   );
 }
